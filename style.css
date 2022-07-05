@@ -1,0 +1,388 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin-top: 10%;
+    background-color: rgb(237, 236, 235);
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* navbar */
+
+svg {
+    width: 200px;
+}
+
+nav {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(237, 236, 235);
+}
+
+#header-img {
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.logo {
+    color: black;
+}
+
+ul {
+    display: flex;
+    float: right;
+    list-style-type: none;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.nav-link {
+    position: relative;
+    float: right;
+    height: 40px;
+    font-size: 20px;
+    padding-top: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: -47px;
+    margin-right: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 1px solid black;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button {
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+  }
+  
+.button:hover {
+    background-color: #e7e7e7;
+}
+
+/* catalog */
+
+#pricing {
+    margin-top: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#model-s, #model-x, #model-y {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px 10px;
+    background-color: white;
+    width: 80%;
+    text-align: center;
+}
+
+.level {
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(237, 236, 235);
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.bttn {
+    border: 1px solid black;
+    border-radius: 15px;
+    height: 35px;
+    font-weight: 700;
+    padding-left: 4px;
+    padding-right: 4px;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(237, 236, 235);
+}
+
+.bttn:hover {
+    background-color: #e7e7e7;
+}
+
+/* email */
+
+#mail {
+    text-align: center;
+}
+
+
+#email {
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+#submit {
+    border-radius: 10px;
+    height: 30px;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-weight: 800;
+}
+
+#submit:hover {
+    background-color: #e7e7e7;
+}
+
+/* background and models */
+
+iframe {
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.pdd {
+    padding-left: 35px;
+}
+
+.pld {
+    font-size: 20px;
+}
+
+.big {
+    font-size: 30px;
+}
+
+.small {
+    font-size: 13px;
+}
+
+#models {
+    background-image: url("img/models.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: white;
+    width: 100%;
+    height: 100%;
+    margin-top: 7%;
+    padding-top: 2%; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#modelx {
+    background-image: url("img/modelx.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#modely {
+    background-image: url("img/modely.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: white;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* model s */
+
+#models h1 {
+    text-align: center;
+    font-size: 45px;
+    padding-top: 30px;
+    padding-bottom: 0;
+}
+
+#models p {
+    text-align: center;
+}
+
+#models-dw {
+    margin-top: 35%;
+
+}
+
+#models-down {
+    display: flex;
+    justify-content: center;
+}
+
+.btns {
+    text-align: center;
+    margin-top: 1%;
+}
+
+.btns input {
+    border-radius: 10px;
+    height: 30px;
+    font-weight: 800;
+    width: 15%;
+}
+
+.btns input:hover {
+    background-color: #e7e7e7;
+}
+
+/* model x */
+
+#modelx h1 {
+    text-align: center;
+    font-size: 45px;
+    padding-top: 30px;
+    padding-bottom: 0;
+}
+
+#modelx p {
+    text-align: center;
+}
+
+#modelx-dw {
+    margin-top: 26%;
+
+}
+
+#modelx-down {
+    display: flex;
+    justify-content: center;
+}
+
+.btnx {
+    text-align: center;
+    margin-top: 1%;
+}
+
+.btnx input {
+    border-radius: 10px;
+    height: 30px;
+    font-weight: 800;
+    width: 15%;
+}
+
+.btnx input:hover {
+    background-color: #e7e7e7;
+}
+
+/* model y */
+
+.btny {
+    text-align: center;
+    margin-top: 1%;
+}
+
+.btny input {
+    border-radius: 10px;
+    height: 30px;
+    font-weight: 800;
+    width: 15%;
+}
+
+.btny input:hover {
+    background-color: #e7e7e7;
+}
+
+input::placeholder{
+    text-align: center;
+}
+
+#modely h1 {
+    text-align: center;
+    font-size: 45px;
+    padding-top: 30px;
+    padding-bottom: 0;
+}
+
+#modely-dw {
+    margin-top: 40%;
+
+}
+
+#modely-down {
+    display: flex;
+    justify-content: center;
+}
+
+/* media */
+
+
+@media (max-width: 1190px) {
+
+    #mail {
+        margin-top: 15%;
+    }
+
+    #pricing {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    iframe {
+        width: 100%;
+    }
+    
+    .nav-link {
+        font-size: 15px;
+        width: 100%;
+        padding: 0;
+        margin-top: -47px;
+        margin-left: -15px;
+        padding-top: 9px;
+        padding-left: 5px;
+    }
+    
+    #model-s, #model-x {
+        margin-bottom: 20px;
+    }
+    
+    #models h1 {
+        margin-top: 2%;
+    }
+    
+    #models {
+        background-image: url("img/models.jpg");
+        background-size:cover;
+    }
+    
+    #modelx {
+        background-image: url("img/modelx.jpg");
+        background-size:cover;
+    }
+    
+    #modely {
+        background-image: url("img/modely.jpg");
+        background-size:cover;
+    }
+
+    .btns input, .btnx input, .btny input {
+        width: 40%;
+    }
+    }
